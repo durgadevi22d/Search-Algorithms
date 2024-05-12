@@ -27,8 +27,8 @@ def linearSearch(array,n,k):
  for i in range(0,n):
      if(array[i]==k):
         return i
- 1/5
- return -1
+     else:
+        return -1
 array = eval(input())
 k=eval(input())
 n=len(array)
